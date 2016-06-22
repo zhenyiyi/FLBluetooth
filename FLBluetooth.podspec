@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/zhenyiyi/FLBluetooth.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif"
   s.license      = "MIT"                #开源协议
-  s.author             = { "linyi31" => "linyi@jd.com" }
+  s.author             = { "zhenyiyi" => "zhangwenhua@cheyaoshi.com" }
 
   s.source       = { :git => "https://github.com/zhenyiyi/FLBluetooth.git", :tag => "0.0.1" }
   ## 这里不支持ssh的地址，只支持HTTP和HTTPS，最好使用HTTPS
