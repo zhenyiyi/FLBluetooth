@@ -10,4 +10,7 @@
 
 @implementation FLBluetooth
 
+- (void)test{
+    NSLog(@"test");
+}
 @end

@@ -10,4 +10,6 @@
 
 @interface FLBluetooth : NSObject
 
+- (void)test ;
+
 @end
