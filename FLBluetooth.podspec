@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
   s.requires_arc = true                    #是否使用ARC
 
-  s.source_files  = "FLBluetooth/FLBluetooth/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+  s.source_files  = "FLBluetooth/**/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
 
-  s.frameworks = 'UIKit', 'Foundation'    #所需的framework,多个用逗号隔开
-  s.module_name = 'FLBluetooth'                #模块名称
+#s.frameworks = 'UIKit', 'Foundation'    #所需的framework,多个用逗号隔开
+#s.module_name = 'FLBluetooth'                #模块名称
 
-  # s.dependency "JSONKit", "~> 1.4"    #依赖关系，该项目所依赖的其他库，如果有多个可以写多个 s.dependency
+# s.dependency "JSONKit", "~> 1.4"    #依赖关系，该项目所依赖的其他库，如果有多个可以写多个 #s.dependency
 
 end
